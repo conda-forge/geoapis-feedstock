@@ -11,7 +11,7 @@ Summary: A package for downloading geospatial data from web APIs.
 
 geoapis is a Python package for simply downloading publicly available
 web-hosted geo-spatial data. It currently supports downloading LiDAR data
-from OpenTopography, and vector or raster data from the LINZ Data Service.
+from OpenTopography, and vector data from the LINZ Data Service.
 
 
 Current build status

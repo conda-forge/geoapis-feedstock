@@ -1,5 +1,5 @@
 {% set name = "geoapis" %}
-{% set version = "0.3.0" %}
+{% set version = "0.2.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geoapis-{{ version }}.tar.gz
-  sha256: b0306f769fd40dfd8d9a436e9fabf5687d92bca2604e02ef697e4c37e3665461
+  sha256: 9ae059813e8766c55e3d3c7dc84d2a1123e673d5b61487f711638ef5d04a001a
 
 build:
   noarch: python
@@ -40,7 +40,7 @@ about:
   description: |
     geoapis is a Python package for simply downloading publicly available
     web-hosted geo-spatial data. It currently supports downloading LiDAR data
-    from OpenTopography, and vector or raster data from the LINZ Data Service.
+    from OpenTopography, and vector data from the LINZ Data Service.
   license: MIT
   license_file: LICENSE
 
