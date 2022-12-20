@@ -150,10 +150,19 @@ In order to produce a uniquely identifiable distribution:
 1. Update PyPI geoapis package
 2. Fork feedstock
 3. Update recipe (meta.yml):
+
     a. Package version
+
     b. Reset build number to 0
-    c. Update SHA256 with latest has from PyPI - go to history - click on latest version
-       - click on options for the tar.gz
+
+    c. Update SHA256 with latest has from PyPI
+
+       - navigate to _latest version_
+
+       - click on _download files_
+
+       - click on _view hashes_ for the tar.gz
+
 4. Push changes to GitHub and open PR
 5. Merge PR when all tests pass
 Feedstock Maintainers
