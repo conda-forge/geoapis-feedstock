@@ -163,6 +163,8 @@ In order to produce a uniquely identifiable distribution:
 
        - click on _view hashes_ for the tar.gz
 
+    d. Update any requirement changes
+
 4. Push changes to GitHub and open PR
 5. Merge PR when all tests pass
 Feedstock Maintainers

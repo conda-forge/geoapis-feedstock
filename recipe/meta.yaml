@@ -25,6 +25,7 @@ requirements:
     - python-dotenv
     - requests
     - tomli
+    - tqdm
 
 test:
   imports:
