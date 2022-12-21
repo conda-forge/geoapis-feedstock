@@ -126,11 +126,10 @@ Terminology
 Updating geoapis-feedstock
 ==========================
 
-If you would like to improve the geoapis recipe or build a new package version, please
-fork this repository and submit a PR - a detailed example can be found at the
-[Conda-Forge maintainers page](https://conda-forge.org/docs/maintainer/updating_pkgs.html#example-workflow-for-updating-a-package).
-Upon submission, your changes will be run on the appropriate platforms to give the
-reviewer an opportunity to confirm that the changes result in a successful build. Once
+If you would like to improve the geoapis recipe or build a new
+package version, please fork this repository and submit a PR. Upon submission,
+your changes will be run on the appropriate platforms to give the reviewer an
+opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
@@ -167,6 +166,7 @@ In order to produce a uniquely identifiable distribution:
 
 4. Push changes to GitHub and open PR
 5. Merge PR when all tests pass
+
 Feedstock Maintainers
 =====================
 
