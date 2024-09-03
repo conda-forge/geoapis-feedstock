@@ -1,11 +1,11 @@
-About geoapis
-=============
+About geoapis-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geoapis-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/geoapis/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geoapis-feedstock/blob/main/LICENSE.txt)
 
 Summary: A package for downloading geospatial data from web APIs.
 
@@ -100,7 +100,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -144,28 +144,6 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
-
-# Key steps - for standard update
-1. Update PyPI geoapis package
-2. Fork feedstock
-3. Update recipe (meta.yml):
-
-    a. Package version
-
-    b. Reset build number to 0
-
-    c. Update SHA256 with latest has from PyPI
-
-       - navigate to _latest version_
-
-       - click on _download files_
-
-       - click on _view hashes_ for the tar.gz
-
-    d. Update any requirement changes
-
-4. Push changes to GitHub and open PR
-5. Merge PR when all tests pass
 
 Feedstock Maintainers
 =====================
